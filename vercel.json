@@ -1,0 +1,12 @@
+{
+    "installCommand": "pnpm install",
+    "buildCommand": "pnpm build",
+    "ignoreCommand": "echo 'Ignoring build step...'; exit 1",
+    "framework": "vite",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
